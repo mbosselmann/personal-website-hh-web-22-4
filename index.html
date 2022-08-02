@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>
+        Mareike Boßelmann
+      </h1>
+      <nav>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#biography" class="nav__link">Biography</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <figure class="profile">
+          <img
+            src="https://source.unsplash.com/450x450?otter"
+            alt=""
+            class="profile__image"
+            width="450"
+            height="450"
+          />
+          <figcaption>
+            Hi! My name is Mareike.
+          </figcaption>
+        </figure>
+        <p>
+          I am a Web Development Coach at neuefische and have been learning to
+          code since last year.
+        </p>
+        <h2 class="align-stretch">My Interests</h2>
+        <ul class="list align-stretch">
+          <li class="list__item">Coding</li>
+          <li class="list__item">Books</li>
+          <li class="list__item">Succulents</li>
+          <li class="list__item">Crochet</li>
+        </ul>
+        <h2 class="align-stretch" id="newsletter-title">
+          Subscribe to my newsletter
+        </h2>
+        <form aria-labelledby="newsletter-title" class="form">
+          <label for="email-newletter">E-mail</label>
+          <input class="form__input" type="email" name="email-newsletter" />
+          <button class="form__button">Submit</button>
+        </form>
+      </section>
+      <section class="biography" id="biography">
+        <h2>CV</h2>
+        <ul class="list biography__list">
+          <li><span class="highlighted">Now:</span> Web Development Coach</li>
+          <li><span class="highlighted">Past:</span> Art Historian</li>
+        </ul>
+        <h2>Tech Stack</h2>
+        <ul class="list">
+          <li class="list__item tech-stack__list__item">HTML</li>
+          <li class="list__item tech-stack__list__item">CSS</li>
+          <li class="list__item tech-stack__list__item">JavaScript</li>
+          <li class="list__item tech-stack__list__item">React</li>
+        </ul>
+      </section>
+      <section class="contact" id="contact">
+        <h2 id="contact-title">Contact me</h2>
+        <form class="form" aria-labelledby="contact-title">
+          <label for="name">Your name</label>
+          <input class="form__input" type="text" id="name" required />
+          <label for="email-contact">Your e-mail</label>
+          <input class="form__input" type="email" id="email-contact" required />
+          <label for="message">Your message</label>
+          <textarea
+            class="form__textarea"
+            id="message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <button class="form__button" type="button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <small>Copyright by Mareike Boßelmann</small>
+    </footer>
+  </body>
+</html>

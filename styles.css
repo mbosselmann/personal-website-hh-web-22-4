@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.main-header {
+  background-color: #613f75;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.main-footer {
+  background-color: #613f75;
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.about {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.biography {
+  border-top: 15px dotted #7d82b8;
+  border-bottom: 15px dotted #7d82b8;
+  padding: 20px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  padding: 2px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav__link:hover {
+  border-bottom: 3px solid white;
+}
+
+.profile {
+  display: grid;
+  place-items: center;
+  align-self: stretch;
+  padding: 0 20px;
+}
+
+.profile__image {
+  border-radius: 50%;
+  width: 80%;
+  max-width: 450px;
+  height: auto;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.biography__list {
+  margin-bottom: 15px;
+}
+
+.list__item {
+  background-color: #f7a9a8;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.tech-stack__list__item {
+  background-color: #e5c3d1;
+}
+
+.highlighted {
+  color: #613f75;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__button {
+  padding: 8px 0;
+  background-color: #ef798a;
+  color: white;
+  font-size: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.form__button:hover {
+  background-color: #c85669;
+  text-transform: uppercase;
+}
+
+.form__input,
+.form__textarea {
+  padding: 8px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.align-stretch {
+  align-self: stretch;
+}
