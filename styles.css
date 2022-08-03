@@ -6,7 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .main-header {
@@ -37,10 +37,6 @@ body {
 .biography {
   border-top: 15px dotted #7d82b8;
   border-bottom: 15px dotted #7d82b8;
-  padding: 20px;
-}
-
-.contact {
   padding: 20px;
 }
 
@@ -131,4 +127,8 @@ body {
 
 .align-stretch {
   align-self: stretch;
+}
+
+.padding {
+  padding: 20px;
 }
