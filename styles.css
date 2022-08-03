@@ -31,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 .biography {
@@ -73,7 +72,6 @@ body {
   justify-content: space-between;
   gap: 15px;
   flex-wrap: wrap;
-  margin-top: 15px;
 }
 
 .biography__list {
